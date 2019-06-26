@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href='https://fonts.googleapis.com/css?family=Karla' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.4.5/fuse.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	
+</head>
+<body>
+	<div class="sitename">Islamic Books</div>
+	<div class="searchbar">
+	  <a href="search.html">
+	  	<input class="button button_search yellow" type="button" value="search"/>
+	  </a>
+	</div>
+	{% for book in books %}
+	<div class="bookouter">
+	  <div class="book">
+	    <div class="book_name">{{book['title']}}</div>
+	    <div class="book_author">{{book['author']}}</div>
+	    <div class="book_description">{{book['description']}}</div>
+	  </div><a href="{{book['link']}}" target="_blank">
+	    <input class="button button_dwn red" type="button" value="download"/></a>
+	</div>
+	{% endfor %}
+</body>
+</html>

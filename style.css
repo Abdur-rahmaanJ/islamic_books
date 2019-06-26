@@ -1,0 +1,104 @@
+.sitename {
+  font-size: 40px;
+  padding: 20px;
+  background-color: #d783ff;
+  font-align: center;
+  border: none;
+  font-weight: bold;
+  font-family: 'Karla', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+.searchbar {
+  font-size: 20px;
+  padding: 15px;
+  background-color: #d783ff;
+  font-align: center;
+  border: none;
+  font-family: 'Karla', sans-serif;
+}
+.searchbox {
+  border: none;
+  padding: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+  outline: none;
+  border-radius: 15px;
+}
+.button {
+  padding: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-size: 15px;
+  border: none;
+}
+.button_search {
+  border-radius: 15px;
+}
+.button_dwn {
+  padding: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-size: 15px;
+  border: none;
+}
+.button:hover {
+  background-color: #e5e5e5;
+}
+.button:hover {
+  background-color: #e5e5e5;
+}
+.yellow {
+  background-color: #ffeb83;
+}
+.pink {
+  background-color: #d783ff;
+}
+.bookouter {
+  display: inline-block;
+  padding: 40px;
+  padding-bottom: 20px;
+  padding-top: 40px;
+  width: 200px;
+  font-size: 11px;
+  float: left;
+  border-bottom: 10px #d783ff solid;
+}
+.book {
+  display: inline-block;
+  font-family: 'Karla', sans-serif;
+  border: 5px #d783ff solid;
+  padding: 20px;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.red {
+  background-color: #ff8383;
+}
+.book_name {
+  margin-bottom: 5px;
+  height: 40px;
+  overflow-y: scroll;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #d783ff;
+  border-radius: 3px;
+}
+.book_author {
+  margin-bottom: 5px;
+  height: 40px;
+  overflow-y: scroll;
+  font-style: italic;
+  padding: 10px;
+  text-align: center;
+}
+.book_description {
+  height: 150px;
+  overflow-y: scroll;
+  padding: 10px;
+  text-align: center;
+  text-align: left;
+}

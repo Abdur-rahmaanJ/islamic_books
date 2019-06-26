@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href='https://fonts.googleapis.com/css?family=Karla' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.4.5/fuse.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script type="text/javascript">
+		
+
+
+		$( document ).ready(function(){
+			$('.button_search').click(function(){
+				$.getJSON("books.json", function(json) {
+	    		var books = json;
+	    		console.log(books);
+	    		var options = {
+						keys: ['tags', 'title']
+					};
+					var fuse = new Fuse(books, options)
+	    		to_search = $('.searchbox').val()
+				array1 = fuse.search(to_search)
+				array1.forEach(function(element) {
+					$('.results').append(
+						`<div class="bookouter">
+							  <div class="book">
+							    <div class="book_name">${element.title}</div>
+							    <div class="book_author">${element.author}</div>
+							    <div class="book_description">${element.description}</div>
+							  </div><a href="${element.link}" target="_blank">
+							    <input class="button button_dwn red" type="button" value="download"/></a>
+							</div>`);
+				});
+				});
+				
+			});
+		});
+
+	</script>
+</head>
+<body>
+	<div class="sitename">Islamic Books</div>
+	<div class="searchbar">
+	  <input class="searchbox"/>
+	  <input class="button button_search yellow" type="button" value="search"/>
+	  <a href="index.html">
+	  	<input class="button button_search yellow" type="button" value="back"/>
+	  </a>
+	</div>
+	<div class="results"></div>
+</body>
+</html>
