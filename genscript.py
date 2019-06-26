@@ -16,6 +16,7 @@ def generate(file_in_templates, outpath, **kwargs):
 
 def genMainPage():
     books = jload(open('books.json', encoding='utf8'))
+    random.shuffle(books)
     generate('index.html', 'index.html', books=books)
 
 genMainPage()

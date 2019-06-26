@@ -1,7 +1,7 @@
 [{
   "title": "Qurani Arabi Seekhiay",
   "author": "Mufti Abu Lubaba Shah Mansoor",
-  "description":"learn quranic arabic",
+  "description":"Learn quranic arabic",
   "link":"https://www.besturdubooks.net/qurani-arabi-seekhiay/",
   "tags": ["urdu", "quran"]
 }, 
@@ -46,6 +46,34 @@
   "description":"---",
   "link":"https://archive.org/details/QuraanMadeEasy",
   "tags": ["english", "quran"]
+}, 
+{
+  "title": "Hayatus Sahaba",
+  "author": "Shaykh Muhammad Yusuf of Khandla",
+  "description":"Lives of the sahaba",
+  "link":"https://archive.org/details/HayatUsSahabah-english-ByShaykhMuhammadYusufKandhelvir.a/page/n1",
+  "tags": ["english", "sahaba"]
+}, 
+{
+  "title": "Al Mukhtar Min Fawaaidin Naqool wal Akhbar",
+  "author": "Shaykh Awwamah",
+  "description":"---",
+  "link":"https://archive.org/details/lionsunna_MUKHTAR_MUHAMMAD_AWWAMAH",
+  "tags": ["arabic", "hanafi"]
+}, 
+{
+  "title": "Salah, Is Your's Correct?",
+  "author": "Shaykh Fazlur Rahmaan Azmi",
+  "description":"---",
+  "link":"https://archive.org/download/SalaatIsYousCorrect/Salaat'%20is%20you's%20correct.pdf",
+  "tags": ["english", "hanafi", "swalah"]
+}, 
+{
+  "title": "Inner Dimentions of Swalah",
+  "author": "Ibn Qayyim",
+  "description":"---",
+  "link":"https://www.kalamullah.com/Books/Inner%20dimensions%20of%20the%20prayer.pdf",
+  "tags": ["swalah"]
 }
 ]
 
