@@ -34,7 +34,7 @@
   "tags": ["arabic", "hadith", "compilation"]
 }, 
 {
-  "title": "Maariful Quraan",
+  "title": "Mariful Quran",
   "author": "Mufti Muhammad Shafi",
   "description":"English Commentary of the Quraan",
   "link":"https://archive.org/details/English-MaarifulQuran",
@@ -115,7 +115,21 @@
   "author": "JONATHAN A. C. BROWN",
   "description":"---",
   "link":"https://ia801608.us.archive.org/25/items/JonathanA.C.BrownHadithMuhammadsLegacyInTheMedievalAndModernWorldOneworldPublications2009/Jonathan%20A.%20C.%20Brown-Hadith_%20Muhammad%27s%20Legacy%20in%20the%20Medieval%20and%20Modern%20World-Oneworld%20Publications%20%282009%29.pdf",
-  "tags": ["aenglish"]
+  "tags": ["english"]
+}, 
+{
+  "title": "Mishkat Sharah - Mazahir e Haq in English",
+  "author": "Rafiq Abdur-Rahman",
+  "description":"Volume One, from Urdu Commentary by Shaykh Nawab Qutbuddin Khan Dehlavi",
+  "link":"https://ia801608.us.archive.org/25/items/JonathanA.C.BrownHadithMuhammadsLegacyInTheMedievalAndModernWorldOneworldPublications2009/Jonathan%20A.%20C.%20Brown-Hadith_%20Muhammad%27s%20Legacy%20in%20the%20Medieval%20and%20Modern%20World-Oneworld%20Publications%20%282009%29.pdf",
+  "tags": ["english"]
+}, 
+{
+  "title": "A Summary of all 30 Parts of the Qur’an in English",
+  "author": "---",
+  "description":"---",
+  "link":"https://www.islam21c.com/books/JuzbyJuz.pdf",
+  "tags": ["english"]
 }
 ]
 
