@@ -188,18 +188,67 @@
   "tags": ["english", "biography"]
 },
 {
-  "title": "Biography of Sayyidina Sa’d ibn Abi Waqqas",
+  "title": "Biography of Sayyidina Sad ibn Abi Waqqas",
   "author": "Mahajjah Institute",
   "description":"---",
   "link":"https://mahajjah.com/wp-content/uploads/2019/06/5.-Sa%CA%BFd-ibn-Ab%C4%AB-Waqq%C4%81%E1%B9%A3.pdf",
   "tags": ["english", "biography"]
 },
 {
-  "title": "Biography of Sayyidina Sa’id ibn Zaid",
+  "title": "Biography of Sayyidina Said ibn Zaid",
   "author": "Mahajjah Institute",
   "description":"---",
   "link":"https://mahajjah.com/wp-content/uploads/2019/06/6.-Sa%CA%BF%C4%ABd-ibn-Zayd.pdf",
   "tags": ["english", "biography"]
+},
+{
+  "title": "Fatawa Shatri",
+  "author": "Allamah Shatri",
+  "description":"---",
+  "link":"https://ia802802.us.archive.org/16/items/taleb_alfateh_yahoo_201805/فتاوي%20الشاطري.pdf",
+  "tags": ["fatawa", "arabic"]
+},
+{
+  "title": "Fatawa Mutamidah",
+  "author": "Habib bin Yusuf",
+  "description":"Shafei Fiqh",
+  "link":"http://bit.ly/Fatawa-Habib-bin-Yosuf",
+  "tags": ["fatawa", "arabic", "shafei"]
+},
+{
+  "title": "Zad al-Ma'ad (Provisions Of The Afterlife) in English",
+  "author": "Ibn Qayyim al-Jawziyya",
+  "description":"---",
+  "link":"https://archive.org/download/ProvisionsOfTheAfterlife/ProvisionsOfTheAfterlife.pdf",
+  "tags": ["english"]
+},
+{
+  "title": "Saviours Of The Islamic Spirit",
+  "author": "Shaykh Syed Abul Hasan Ali Nadvi",
+  "description":"Vol1",
+  "link":"https://archive.org/download/SavioursOfIslamicSpiritByShaykhSyedAbulHasanAliNadvir.a/SavioursOfIslamicSpirit-Volume1-ByShaykhSyedAbulHasanAliNadvir.a.pdf",
+  "tags": ["english"]
+},
+{
+  "title": "Saviours Of The Islamic Spirit",
+  "author": "Shaykh Syed Abul Hasan Ali Nadvi",
+  "description":"Vol2",
+  "link":"https://archive.org/download/SavioursOfIslamicSpiritByShaykhSyedAbulHasanAliNadvir.a/SavioursOfIslamicSpirit-Volume2-ByShaykhSyedAbulHasanAliNadvir.a.pdf",
+  "tags": ["english"]
+},
+{
+  "title": "Saviours Of The Islamic Spirit",
+  "author": "Shaykh Syed Abul Hasan Ali Nadvi",
+  "description":"Vol3",
+  "link":"https://archive.org/download/SavioursOfIslamicSpiritByShaykhSyedAbulHasanAliNadvir.a/SavioursOfIslamicSpirit-Volume3-ByShaykhSyedAbulHasanAliNadvir.a.pdf",
+  "tags": ["english"]
+},
+{
+  "title": "Saviours Of The Islamic Spirit",
+  "author": "Shaykh Syed Abul Hasan Ali Nadvi",
+  "description":"Vol4",
+  "link":"https://archive.org/download/SavioursOfIslamicSpiritByShaykhSyedAbulHasanAliNadvir.a/SavioursOfIslamicSpirit-Volume4-ByShaykhSyedAbulHasanAliNadvir.a.pdf",
+  "tags": ["english"]
 }
 ]
 
