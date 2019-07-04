@@ -16,8 +16,8 @@ def generate(file_in_templates, outpath, **kwargs):
 
 def genMainPage():
     books = jload(open('books.json', encoding='utf8'))
-    for i,book in enumerate(books):
-        book['id'] = i
+    for i, book in enumerate(books):
+        book['id'] = i+1
     books = books[::-1]
     generate('index.html', 'index.html', books=books)
 
